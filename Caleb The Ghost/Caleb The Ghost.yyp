@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "29db0e7d-e154-48c6-89ea-415308ebed61",
+            "Value": {
+                "id": "bf91edf0-cc3c-491f-9719-c3b8bb39278c",
+                "resourcePath": "objects\\o_Boss\\o_Boss.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2d01085f-9346-4623-a1ab-cee348cc9158",
             "Value": {
                 "id": "13814fc9-dc55-48c0-92ac-a29107e2ffd5",
@@ -164,6 +172,14 @@
                 "id": "5eaa56fe-c676-49ad-a672-d09e5bc8aadf",
                 "resourcePath": "rooms\\Level4\\Level4.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "8333586c-a937-4d86-860e-9f1ea067d22c",
+            "Value": {
+                "id": "88c1e10b-8ae1-4317-9487-cc1e9c77b3a4",
+                "resourcePath": "sprites\\s_Boss\\s_Boss.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
