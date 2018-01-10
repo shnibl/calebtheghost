@@ -7,7 +7,6 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-
     ],
     "IsDnD": false,
     "layers": [
@@ -25,7 +24,6 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-
             ],
             "layers": [
 
