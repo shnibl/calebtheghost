@@ -7,7 +7,6 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-
     ],
     "IsDnD": false,
     "layers": [
@@ -25,7 +24,6 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-
             ],
             "layers": [
 
@@ -43,7 +41,7 @@
             "id": "72a0e68b-4b3d-44ad-95ca-6074b825dae1",
             "animationFPS": 15,
             "animationSpeedType": "0",
-            "colour": { "Value": 4278190080 },
+            "colour": { "Value": 4294967295 },
             "depth": 100,
             "grid_x": 32,
             "grid_y": 32,
@@ -62,8 +60,8 @@
             "m_serialiseFrozen": false,
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
-            "spriteId": "00000000-0000-0000-0000-000000000000",
-            "stretch": false,
+            "spriteId": "2d01085f-9346-4623-a1ab-cee348cc9158",
+            "stretch": true,
             "userdefined_animFPS": false,
             "userdefined_depth": false,
             "visible": true,
