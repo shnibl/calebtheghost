@@ -1,1 +1,0 @@
-y = global.floory - 108;
