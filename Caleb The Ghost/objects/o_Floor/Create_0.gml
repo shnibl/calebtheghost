@@ -1,0 +1,1 @@
+global.floory = y;

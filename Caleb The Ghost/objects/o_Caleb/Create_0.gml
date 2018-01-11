@@ -1,7 +1,7 @@
 hsp = 0;
 vsp = 0;
-grv = 0.1;
-walksp = 5;
+grv = 0.5;
+walksp = 8;
 image_xscale = 0.8;
 image_yscale = 0.8;
 image_speed = 0;

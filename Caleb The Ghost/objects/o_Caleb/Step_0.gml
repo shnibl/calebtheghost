@@ -14,10 +14,6 @@ if (key_right) {
 	image_xscale = -0.8;
 }
 
-if (key_jump) {
-	
-}
-
 if (key_ability) {
 	
 }
@@ -35,27 +31,18 @@ if (key_exit) {
 }
 
 var move = key_right - key_left;
+
 hsp = move * walksp;
 
-if (place_meeting(x,y+1,o_Wall) && key_jump) {
-	vsp = -7;
+vsp = vsp + grv;
+
+if (place_meeting(x,y+1,o_Floor)) && (key_jump) {
+	vsp = -15;
 }
 
-if (place_meeting(x+hsp,y,o_Wall)) {
-	while (!place_meeting(x+sign(hsp),y,o_Wall)) {
-		x = x + sign(hsp);
-	}
-	hsp = 0;
+if (place_meeting(x,y+1,o_Block)) && (key_jump) {
+	vsp = -15;
 }
-x = x + hsp;
-
-if (place_meeting(x+hsp,y,o_Floor)) {
-	while (!place_meeting(x+sign(hsp),y,o_Floor)) {
-		x = x + sign(hsp);
-	}
-	hsp = 0;
-}
-x = x + hsp;
 
 if (place_meeting(x+hsp,y,o_Block)) {
 	while (!place_meeting(x+sign(hsp),y,o_Block)) {
@@ -63,28 +50,14 @@ if (place_meeting(x+hsp,y,o_Block)) {
 	}
 	hsp = 0;
 }
+
 x = x + hsp;
-
-if (place_meeting(x,y+vsp,o_Wall)) {
-	while (!place_meeting(x,y+sign(vsp),o_Wall)) {
-		x = x + sign(vsp);
-	}
-	vsp = 0;
-}
-x = x + vsp;
-
-if (place_meeting(x,y+vsp,o_Floor)) {
-	while (!place_meeting(x,y+sign(vsp),o_Floor)) {
-		x = x + sign(vsp);
-	}
-	vsp = 0;
-}
-x = x + vsp;
 
 if (place_meeting(x,y+vsp,o_Block)) {
 	while (!place_meeting(x,y+sign(vsp),o_Block)) {
-		x = x + sign(vsp);
+		y = y + sign(vsp);
 	}
 	vsp = 0;
 }
-x = x + vsp;
+
+y = y + vsp;
