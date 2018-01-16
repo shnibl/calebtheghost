@@ -1,0 +1,1 @@
+global.actimer = 30;

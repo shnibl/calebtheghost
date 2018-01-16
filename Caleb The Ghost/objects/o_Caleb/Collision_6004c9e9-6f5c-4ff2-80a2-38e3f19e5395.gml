@@ -1,0 +1,1 @@
+global.fantimer = 30;
