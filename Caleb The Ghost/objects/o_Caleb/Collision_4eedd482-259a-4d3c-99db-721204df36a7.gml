@@ -1,1 +1,0 @@
-global.vacuumtimer = 30;
